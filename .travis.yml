@@ -1,6 +1,6 @@
 language: bash
 script:
- - cd $TRAVIS_REPO_SLUG || true
+ - git config --list
  - echo hello > README.md
  - git add .
  - git commit -m "hello"
