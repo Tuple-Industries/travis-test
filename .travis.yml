@@ -5,5 +5,5 @@ script:
  - echo hello > README.md
  - git add .
  - git commit -m "hello"
- - git push
+ - git push origin HEAD:main
  
