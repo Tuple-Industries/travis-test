@@ -1,7 +1,6 @@
 language: bash
 script:
- - git clone https://github.com/Tuple-Industries/travis-test.git $TRAVIS_REPO_SLUG
- - cd $TRAVIS_REPO_SLUG
+ - cd $TRAVIS_REPO_SLUG || true
  - echo hello > README.md
  - git add .
  - git commit -m "hello"
