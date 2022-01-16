@@ -1,9 +1,9 @@
 language: bash
 script:
- -git clone git@github.com:Tuple-Industries/travis-test.git
- -cd travis-test
- -echo hello > README.md
- -git add .
- -git commit -m "hello"
- -git push
+ - git clone git@github.com:Tuple-Industries/travis-test.git
+ - cd travis-test
+ - echo hello > README.md
+ - git add .
+ - git commit -m "hello"
+ - git push
  
