@@ -1,4 +1,8 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
+language: bash
+script:
+ - git config --list
+ - echo hello > README.md
+ - git add .
+ - git commit -m "hello"
+ - git push origin HEAD:main
+ 
